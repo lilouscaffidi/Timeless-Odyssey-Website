@@ -1,86 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
 body {
-    font-family: 'Press Start 2P', cursive;
-    margin: 0;
-    padding: 0;
-
-    color: #333;
-}
-
-header {
-    background-color: #4b0082;
-    padding: 10px 0;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-.navbar {
-    max-width: 12000px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-}
-
-.menu {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    padding: 0;
-    margin: 0;
-}
-
-.menu li a {
-    text-decoration: none;
-    font-size: 16px;
+    font-family: Arial, sans-serif;
+    background-color: #22101a;
     color: #ffffff;
-    padding: 5px 10px;
-    border: 1px solid transparent;
-    transition: all 0.3s ease;
-}
-
-.menu li a:hover {
-    border: 1px solid #ffffff;
-    border-radius: 4px;
-    background-color: #ffffff;
-    color: #4b0082;
-}
-
-.content {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 50px;
-}
-
-.image-container img {
-    max-width: 70%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.text-container {
-    max-width: 50%;
-}
-
-.main-title {
-    font-size: 2.5em;
-    color: #4b0082;
-    margin-bottom: 20px;
-}
-
-.description {
-    font-size: 1.2em;
-    color: #555;
+    margin: 0;
+    padding: 0;
     line-height: 1.6;
 }
-body {
+
+h1, h2, .main-title, .download-title {
     font-family: 'Press Start 2P', cursive;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8ff;
-    color: #333;
+    text-shadow: black 1px 1px 2px;
 }
+
 
 header {
     background-color: #4b0082;
@@ -91,8 +25,10 @@ header {
 }
 
 .navbar {
+    font-family: 'Press Start 2P', cursive;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 15px 0;
     display: flex;
     justify-content: center;
 }
@@ -147,7 +83,7 @@ header {
 
 .description {
     font-size: 1.2em;
-    color: #555;
+    color: #ffffff;
     line-height: 1.6;
 }
 
@@ -156,8 +92,8 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 50px;
-    background-color: #fff;
-    border-top: 2px solid #4b0082;
+    background-color: #22101a;
+    border-top: 8px solid #4b0082;
     margin: 50px 0;
 }
 
@@ -165,41 +101,20 @@ header {
     width: 75%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
 }
 
 .big-text-container {
-    max-width: 40%;
-    text-align: left;
+    max-width: 50%;
+    text-align: center;
     color: #4b0082;
 }
 
 .big-text-container h2 {
-    font-size: 2.5em;
+    font-size: 2.1em;
     color: #4b0082;
 }
 
-.team-section {
-   border-top: 2px solid #4b0082;
-}
-
-.team-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 40px 20px;
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-.team-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 40px 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 .team-container {
     display: flex;
@@ -215,6 +130,7 @@ header {
    align-items: center;
    justify-content: center;
    text-align: center;
+font-size: 2.1em;
 }
 
 /* Team Card */
@@ -293,8 +209,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 50px;
-    background-color: #f8f8ff;
-    border-top: 2px solid #4b0082;
+    background-color: ##22101a;
     margin: 50px 0;
 }
 
@@ -312,10 +227,11 @@ header {
 .company-text p {
     font-size: 1.2em;
     line-height: 1.6;
-    color: #333;
+    color: #fff;
 }
 
 .company-image img {
+    background-color: #f8f8ff;
     max-width: 100%;
     height: auto;
     border-radius: 10px;
@@ -360,7 +276,3 @@ text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
-
-
-
-
