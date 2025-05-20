@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Timeless Odyssey - Download</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #22101a;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    h1, h2, .main-title, .download-title {
+      font-family: 'Press Start 2P', cursive;
+      text-shadow: black 1px 1px 2px;
+      
+    }
+
+    header {
+      background-color: #4b0082;
+      padding: 10px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+
+    }
+
+    .navbar {
+      font-family: 'Press Start 2P', cursive;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 15px 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .menu {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      padding: 0;
+      margin: 0;
+    }
+
+    .menu li a {
+      text-decoration: none;
+      font-size: 16px;
+      color: #ffffff;
+      padding: 5px 10px;
+      border: 1px solid transparent;
+      transition: all 0.3s ease;
+    }
+
+    .menu li a:hover {
+      border: 1px solid #ffffff;
+      border-radius: 4px;
+      background-color: #ffffff;
+      color: #4b0082;
+    }
+
+    .download-section {
+      background-color: #22101a;
+      padding: 50px 20px;
+      text-align: center;
+      margin: 50px 0;
+    }
+
+    .download-title {
+      font-size: 2.5em;
+      margin-bottom: 30px;
+      color: #4b0082;
+    }
+
+    .download-container {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .download-button {
+      background-color: #4b0082;
+      color: white;
+      text-decoration: none;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      border: 1px solid transparent;
+    }
+
+    .download-button:hover {
+      border: 1px solid #ffffff;
+      border-radius: 4px;
+      background-color: #ffffff;
+      color: #4b0082;
+    }
+
+    .timeline-section {
+      background-color: #22101a;
+      padding: 50px 20px;
+      color: white;
+      text-align: center;
+    }
+
+    .timeline-section h2 {
+      font-size: 2em;
+      color: #4b0082;
+      margin-bottom: 30px;
+    }
+
+    .timeline {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 20px;
+  border-left: 3px solid #4b0082;
+}
+
+.timeline li {
+  list-style: none;
+  margin-bottom: 30px;
+  position: relative;
+  padding: 10px 0;
+  padding-left: 20px;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.timeline li::before {
+  content: '';
+  position: absolute;
+  left: -11px;
+  top: 5px;
+  width: 12px;
+  height: 12px;
+  background-color: #4b0082;
+  border-radius: 50%;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* ✅ Your custom hover effect */
+.timeline li:hover {
+  background-color: #1f0e18;
+  padding: 10px 0;
+padding-left: 20px;
+}
+
+.timeline li:hover::before {
+  background-color: white;
+  box-shadow: 0px 0px 10px 2px #4b0082;
+ 
+}
+
+
+    .timeline span {
+      display: block;
+      font-weight: bold;
+      font-family: 'Press Start 2P', cursive;
+      font-size: 1em;
+      color: #ffffff;
+      margin-bottom: 5px;
+    }
+
+    .timeline h3 {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 1em;
+      color: #ffffff;
+      margin-bottom: 5px;
+    }
+
+    .timeline p {
+      font-size: 1em;
+      max-width : 80%;
+padding-left : 80px;
+      margin: 0;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #22101a;
+      color: white;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      .download-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .download-button {
+        width: 80%;
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="epixar.html">About</a></li>
+        <li><a href="download.html">Download</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="download-section">
+      <h2 class="download-title">Downloads</h2>
+      <div class="download-container">
+        <a href="rapport_soutenance.pdf" download="Timeless_Odyssey_Report.pdf" class="download-button">Download Report (PDF)</a>
+        <a href="Timeless Odyssey.zip" download="Timeless_Odyssey_Game.zip" class="download-button">Download Game (ZIP)</a>
+      </div>
+    </section>
+
+    <section class="timeline-section">
+      <h2>Update Timeline</h2>
+      <ul class="timeline">
+        <li>
+          <span>20 May 2025</span>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </li>
+        <li>
+          <span>02 May 2025</span>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+        </li>
+        <li>
+          <span>17 April 2025</span>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+        </li>
+        <li>
+          <span>01 March 2025</span>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Epixar Studios. All rights reserved.
+  </footer>
+
+</body>
+</html>
